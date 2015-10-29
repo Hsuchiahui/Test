@@ -2,12 +2,56 @@
 <html>
 <head>
 <title>Page Title</title>
+<style>
+#startBox {
+                width: 94px;
+                height: 16px;
+                background: url(img/bg.png);
+                position: relative;
+            }
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            div {
+                width: 9.4px;
+                height: 100%;
+                float: left;
+                z-index: 2;
+                background: url(img/hover.png);
+            }
+            .startb {
+                background-position: 101px;
+            }
+            .starta,
+            .startb {
+                opacity: 0;
+            }
+            .starta.show,
+            .startb.show {
+                opacity: 1;
+            }
+</style>
 </head>
 <body>
 
 
 <h1>肌肉徽徽</h1>
-<img src="https://scontent-hkg3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11219683_970375449686144_805917860282309120_n.jpg?oh=d40424e7d3f0832b2a10550a161e649c&oe=56CFADD2"  style="width:304px;height:228px;">
+<div id="startBox">
+            <div class="starta"></div>
+            <div class="startb"></div>
+            <div class="starta"></div>
+            <div class="startb"></div>
+            <div class="starta"></div>
+            <div class="startb"></div>
+            <div class="starta"></div>
+            <div class="startb"></div>
+            <div class="starta"></div>
+            <div class="startb"></div>
+            <img src="https://scontent-hkg3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11219683_970375449686144_805917860282309120_n.jpg?oh=d40424e7d3f0832b2a10550a161e649c&oe=56CFADD2"/>
+        </div>
+
 
 <p>徐嘉徽很聰明 </p>
 <p>我的<b>郭郭</b>室友很笨</p>
